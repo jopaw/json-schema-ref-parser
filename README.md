@@ -102,13 +102,13 @@ Usage
 When using JSON Schema $Ref Parser in Node.js apps, you'll probably want to use **CommonJS** syntax:
 
 ```javascript
-const $RefParser = require("@apidevtools/json-schema-ref-parser");
+const $RefParser = require("@jopaw/json-schema-ref-parser-with-used-ref-list");
 ```
 
 When using a transpiler such as [Babel](https://babeljs.io/) or [TypeScript](https://www.typescriptlang.org/), or a bundler such as [Webpack](https://webpack.js.org/) or [Rollup](https://rollupjs.org/), you can use **ECMAScript modules** syntax instead:
 
 ```javascript
-import $RefParser from "@apidevtools/json-schema-ref-parser";
+import $RefParser from "@jopaw/json-schema-ref-parser-with-used-ref-list";
 ```
 
 
